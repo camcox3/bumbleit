@@ -55,61 +55,21 @@
   <url>
     <loc>http://musings.bumbleit.com/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/css/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/html/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/markdown/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/blog/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/blog/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/blog/markdown-syntax/"
-                />
   </url>
   
   <url>
@@ -165,31 +125,11 @@
   <url>
     <loc>http://musings.bumbleit.com/blog/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/blog/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/categories/syntax/"
-                />
   </url>
   
   <url>
@@ -245,76 +185,26 @@
   <url>
     <loc>http://musings.bumbleit.com/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/themes/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/categories/themes/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/privacy/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/blog/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/blog/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/blog/rich-content/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/shortcodes/"
-                />
   </url>
   
   <url>
@@ -330,56 +220,16 @@
   <url>
     <loc>http://musings.bumbleit.com/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/emoji/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/blog/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/blog/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/blog/emoji-support/"
-                />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://musings.bumbleit.com/pl/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://musings.bumbleit.com/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/about/"
-                />
   </url>
   
   <url>
@@ -398,6 +248,10 @@
   
   <url>
     <loc>http://musings.bumbleit.com/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/photos/</loc>
   </url>
   
 </urlset>
