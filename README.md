@@ -1,6 +1,7 @@
 # Musings
 ## Site used for tutorial: 
 - https://aaronberk.ca/project/hugo-tutorial/
+- https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 
 ## Helpful Commands
 ``` 
