@@ -83,6 +83,36 @@
   </url>
   
   <url>
+    <loc>http://musings.bumbleit.com/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/tags/markdown/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/blog/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/blog/markdown-syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/blog/markdown-syntax/"
+                />
+  </url>
+  
+  <url>
     <loc>http://musings.bumbleit.com/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -129,36 +159,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://musings.bumbleit.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://musings.bumbleit.com/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/tags/markdown/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://musings.bumbleit.com/blog/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://musings.bumbleit.com/fr/blog/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://musings.bumbleit.com/blog/markdown-syntax/"
                 />
   </url>
   
