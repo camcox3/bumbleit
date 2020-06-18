@@ -2,7 +2,7 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "http://musings.bumbleit.com"
 DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
+title                   = "Musings of the IT World"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
@@ -49,10 +49,10 @@ disableLanguages        = [""]
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "img/main/code.jpg"
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "Code"
 
   [params.sidebar]
     about               = "This theme was developed for Hugo static site generator."
