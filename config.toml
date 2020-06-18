@@ -103,7 +103,7 @@ disableLanguages        = [""]
     name              = "Photos"
     identifier        = "photos"
     url               = "/photos/"
-    pre               = "<i class='far fa-newspaper'></i>"
+    pre               = "<i class='fa fa-picture-o'></i>"
     weight            = 4
 
   [[menu.main]]
