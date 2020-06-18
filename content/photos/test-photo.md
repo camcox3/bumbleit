@@ -1,7 +1,12 @@
----
-title: "Test Photo"
-date: 2020-06-18T13:15:59-04:00
-draft: true
----
++++
+title = "Test Photo"
+date = "2020-06-18"
+tags = [
+  "photos",
+]
+catagories = [
+  "photos"
+]
++++
 
-![Finn](Dogs/Finn2.jpg)
+![Finn](img/main/Finn.jpg)
