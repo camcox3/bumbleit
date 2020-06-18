@@ -9,4 +9,4 @@ catagories = [
 ]
 +++
 
-![Finn](img/main/Finn.jpg)
+![Finn]("img/main/Finn.jpg")
