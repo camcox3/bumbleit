@@ -9,6 +9,7 @@ disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
+canonifyURLs            = true
 
 [outputs]
   home                  = ["html", "json"]
