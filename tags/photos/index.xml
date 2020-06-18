@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photos on Musings of the IT World</title>
-    <link>http://musings.bumbleit.com/photos/</link>
-    <description>Recent content in Photos on Musings of the IT World</description>
+    <title>photos on Musings of the IT World</title>
+    <link>http://musings.bumbleit.com/tags/photos/</link>
+    <description>Recent content in photos on Musings of the IT World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://musings.bumbleit.com/photos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://musings.bumbleit.com/tags/photos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
