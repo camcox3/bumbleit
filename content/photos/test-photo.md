@@ -7,6 +7,5 @@ tags = [
 catagories = [
   "photos"
 ]
+images  = ["img/main/Finn.jpg"]
 +++
-
-![Finn]("img/main/Finn.jpg")
