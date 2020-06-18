@@ -1,175 +1,650 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-	<meta name="generator" content="Hugo 0.72.0" />
-        <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author" content="Jane Doe ">
-<meta name="description" content="Hello Friend NG" />
-<meta name="keywords" content="" />
-<meta name="robots" content="noodp" />
-<meta name="theme-color" content="#252627" />
-<link rel="canonical" href="http://musings.bumbleit.com/" />
+  <head>
+  <meta charset="utf-8">
+<title>Hugo Future Imperfect Slim</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>
-        
-            BumbleIT  — Hello Friend NG Theme 
-        
-    </title>
-
-
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
-
-
-
-<link rel="stylesheet" href="http://musings.bumbleit.com/main.dede02da9537a98158079c023e83573e18127834838ef08172acce888341a797.css">
-
-
-
-
-    <link rel="apple-touch-icon" sizes="180x180" href="http://musings.bumbleit.com/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="http://musings.bumbleit.com/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="http://musings.bumbleit.com/favicon-16x16.png">
-    <link rel="manifest" href="http://musings.bumbleit.com/site.webmanifest">
-    <link rel="mask-icon" href="http://musings.bumbleit.com/safari-pinned-tab.svg" color="#252627">
-    <link rel="shortcut icon" href="http://musings.bumbleit.com/favicon.ico">
-    <meta name="msapplication-TileColor" content="#252627">
-    <meta name="theme-color" content="#252627">
-
-
-
-<meta itemprop="name" content="BumbleIT">
-<meta itemprop="description" content="Nice theme for homepages and blogs">
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://musings.bumbleit.com"/>
-
-<meta name="twitter:title" content="BumbleIT"/>
-<meta name="twitter:description" content="Nice theme for homepages and blogs"/>
-
-
-
-    <meta property="og:title" content="BumbleIT" />
-<meta property="og:description" content="Nice theme for homepages and blogs" />
+<meta name="generator" content="Hugo 0.72.0" /><meta itemprop="name" content="Hugo Future Imperfect Slim">
+<meta itemprop="description" content=""><meta property="og:title" content="Hugo Future Imperfect Slim" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://musings.bumbleit.com/" />
-<meta property="og:image" content="http://musings.bumbleit.com"/>
-<meta property="og:updated_time" content="2014-09-28T00:00:00+00:00" />
+<meta property="og:updated_time" content="2019-03-11T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo Future Imperfect Slim"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@example"/>
+<link rel="stylesheet" href="/css/bundle.min.759e3848ea529eef056dab665b241e2af569e601ab80f68f8d4a4d002a155dd4.css" integrity="sha256-dZ44SOpSnu8FbatmWyQeKvVp5gGrgPaPjUpNACoVXdQ="><link rel="stylesheet" href="/css/add-on.css">
+</head>
 
+  <body>
+    
 
+  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
+    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
+      <code>localhost</code> homepage to notify you of any important theme changes.</p>
+      <hr>
+      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 1.1.0 - May 18, 2020<i class="fas fa-exclamation-triangle"></i></h5>
+    <p>With this version, the theme has fully implemented <strong>static search</strong> using
+<code>lunr.js</code>. That being said, a few modifications were necessary to implement this
+feature.</p>
+<p>To utilize this, or future version of <em>Hugo Future Imperfect Slim</em>, please make
+the following changes:</p>
+<ol>
+<li>Add the following to your <code>config.toml</code> before <code>[params]</code>:</li>
+</ol>
+<pre><code>...
+disableLanguages = [&quot;&quot;]
 
+[outputs]
+    home = [&quot;html&quot;, &quot;json&quot;]
 
+[params]
+...
+</code></pre><ol start="2">
+<li>
+<p>Remove the underscore from all <code>about</code> and <code>contact</code> page file names:
+<code>_index.md --&gt; index.md</code></p>
+</li>
+<li>
+<p>Add <code>layout = &quot;about&quot;</code> or <code>layout = &quot;contact&quot;</code> to all of the files you just
+just adjusted the file names for.</p>
+</li>
+</ol>
+<p>While I realize this is inconvenient, I hope that it is worth it to you in the
+long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
 
-
-
-
-<link rel="alternate" type="application/rss+xml" href="http://musings.bumbleit.com/index.xml" title="BumbleIT" />
-
-
-
-
-
-    </head>
-
-    <body class="dark-theme">
-        <div class="container">
-            <header class="header">
-    <span class="header__inner">
-        <a href="http://musings.bumbleit.com/" style="text-decoration: none;">
-    <div class="logo">
-        
-            <span class="logo__mark">></span>
-            <span class="logo__text">$ cd /home/</span>
-            <span class="logo__cursor" style=
-                  "
-                   
-                   ">
-            </span>
-        
+    <div style="text-align:center;">
+      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
     </div>
-</a>
+    <script>
+      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.1.0') {
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+      function removeBox() {
+        window.localStorage.setItem('HFIS-version', '1.1.0');
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+    </script>
+  </div>
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Future Imperfect
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          
+            <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+          
+        
+      
+        
+          
+          
+            <a href="/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+          
+        
+      
+        
+          
+          
+            <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+          
+        
+      
+        
+          
+          
+            <a href="/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+          
+        
+      
+        
+          
+          
+            <a href="/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+          
+        
+      
+      <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+      <a href="http://musings.bumbleit.com/fr/" lang="fr" class="nav link">Français (fr)</a>
+    
+      <a href="http://musings.bumbleit.com/pl/" lang="pl" class="nav link">Polski (pl)</a>
+    
+      <a href="http://musings.bumbleit.com/pt/" lang="pt" class="nav link">Português (pt)</a>
+    
+      <a href="http://musings.bumbleit.com/de/" lang="de" class="nav link">Deutsche (de)</a>
+    
+      <a href="http://musings.bumbleit.com/es/" lang="es" class="nav link">Española (es)</a>
+    
+      <a href="http://musings.bumbleit.com/zh-cn/" lang="zh-cn" class="nav link">中文 (zh-cn)</a>
+    
+      <a href="http://musings.bumbleit.com/zh-tw/" lang="zh-tw" class="nav link">中文 (zh-tw)</a>
+    
+      <a href="http://musings.bumbleit.com/ja/" lang="ja" class="nav link">日本語 (ja)</a>
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
 
 
-        <span class="header__right">
-            
-                <nav class="menu">
-    <ul class="menu__inner"><li><a href="http://musings.bumbleit.com/about/">About</a></li><li><a href="http://musings.bumbleit.com/posts/">Posts</a></li>
-    </ul>
-</nav>
 
-                <span class="menu-trigger">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-                    </svg>
-                </span>
-            
 
-            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
-  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
-  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
-</svg>
-</span>
-        </span>
-    </span>
+  
+    
+    <a href="//twitter.com/share?text=Hugo%20Future%20Imperfect%20Slim&amp;url=http%3a%2f%2fmusings.bumbleit.com%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmusings.bumbleit.com%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=http%3a%2f%2fmusings.bumbleit.com%2f&amp;title=Hugo%20Future%20Imperfect%20Slim" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fmusings.bumbleit.com%2f&amp;title=Hugo%20Future%20Imperfect%20Slim" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fmusings.bumbleit.com%2f&amp;description=Hugo%20Future%20Imperfect%20Slim" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=http%3a%2f%2fmusings.bumbleit.com%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
 </header>
 
-
-            <div class="content">
-                
-    <main aria-role="main">
-        <div>
-            
-               <img src="http://musings.bumbleit.com/img/image.jpg" class="circle" alt="Portrait" />
-            
-
-            <h1>BumbleIT</h1>
-                <p>Hello Friend NG</p>
-                <div>
-                    &nbsp; <a href="https://twitter.com/" target="_blank" rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a> &nbsp;&nbsp; <a href="mailto:nobody@example.com" target="_blank" rel="noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a> &nbsp;&nbsp; <a href="https://github.com/" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a> &nbsp;&nbsp; <a href="https://www.stackoverflow.com/" target="_blank" rel="noopener" title="Stackoverflow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z"/></svg></a> &nbsp;
-                </div>
-        </div>
-    </main>
-
-            </div>
-
-            
-                <footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span>&copy; 2020</span>
-            
-                <span><a href="http://musings.bumbleit.com">Jane Doe</a></span>
-            
-            
-                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
-            
-            <span> <a href="http://musings.bumbleit.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
-        </div>
-    </div>
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
-            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
-        </div>
-    </div>
-</footer>
-
-            
-        </div>
-
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="http://musings.bumbleit.com/img/main/logo.jpg" class="circle" width="" alt="Hugo Future Imperfect Slim" /></a>
+  <header>
+    <h1>Hugo Future Imperfect Slim</h1>
+  </header>
+  <main>
+    <p>Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
         
 
+        <li><a href="//github.com/pacollins/hugo-future-imperfect-slim" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 
 
 
-<script type="text/javascript" src="http://musings.bumbleit.com/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
 
 
 
-    </body>
+<li><a href="//flickr.com/photos/example" target="_blank" rel="noopener" title="Flickr" class="fab fa-flickr"></a></li>
+
+
+
+
+<li><a href="//linkedin.com/in/example" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+<li><a href="//linkedin.com/company/examplebusiness" target="_blank" rel="noopener" title="LinkedIn Company" class="fab fa-linkedin"></a></li>
+
+
+
+<li><a href="//facebook.com/example" target="_blank" rel="noopener" title="Facebook" class="fab fa-facebook"></a></li>
+<li><a href="//reddit.com/user/example" target="_blank" rel="noopener" title="Reddit" class="fab fa-reddit"></a></li>
+
+
+
+
+
+
+
+<li><a href="//instagram.com/example" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/example" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+<li><a href="//pinterest.com/example" target="_blank" rel="noopener" title="Pinterest" class="fab fa-pinterest-p"></a></li>
+<li><a href="//telegram.me/example" target="_blank" rel="noopener" title="telegram" class="fab fa-telegram"></a></li>
+
+
+
+<li><a href="//researchgate.net/profile/example" target="_blank" rel="noopener" title="Research Gate"><i class="ai ai-researchgate"></i></a></li>
+<li><a href="//keybase.io/example" target="_blank" rel="noopener" title="keybase" class="fab fa-keybase"></a></li>
+<li><a href="//example.com/@example" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:example" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/markdown-syntax/">Markdown Syntax Guide</a></h2>
+    
+    
+      <p>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</p>
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2019-03-11 00:00:00 &#43;0000 UTC">
+      March 11, 2019
+    </time>
+    <span class="author">Hugo Authors</span>
+    
+      <p>3 minute read</p>
+    
+  </div>
+</header>
+
+  
+  <a href="/blog/markdown-syntax/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2014/04/pic02.jpg" alt="">
+    
+  </a>
+
+
+  
+  <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+  <footer>
+    <a href="/blog/markdown-syntax/" class="button big">Read more</a>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/categories/themes/">themes</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/syntax/">syntax</a></li>
+        
+      
+    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/tags/markdown/">markdown</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/css/">css</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/themes/">themes</a></li>
+        
+      
+    
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/rich-content/">Rich Content</a></h2>
+    
+    
+      <p>A brief description of Hugo Shortcodes</p>
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2019-03-10 00:00:00 &#43;0000 UTC">
+      March 10, 2019
+    </time>
+    <span class="author">Hugo Authors</span>
+    
+      <p>1 minute read</p>
+    
+  </div>
+</header>
+
+  
+  <a href="/blog/rich-content/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2017/08/pic04.jpg" alt="">
+    
+  </a>
+
+
+  
+  <p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
+  <footer>
+    <a href="/blog/rich-content/" class="button big">Read more</a>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+    
+      <li>None</li>
+    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/tags/shortcodes/">shortcodes</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/privacy/">privacy</a></li>
+        
+      
+    
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/placeholder-text/">Placeholder Text</a></h2>
+    
+    
+      <p>Lorem Ipsum Dolor Si Amet</p>
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2019-03-09 00:00:00 &#43;0000 UTC">
+      March 9, 2019
+    </time>
+    <span class="author">Hugo Authors</span>
+    
+      <p>2 minute read</p>
+    
+  </div>
+</header>
+
+  
+  <a href="/blog/placeholder-text/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2014/09/pic03.jpg" alt="">
+    
+  </a>
+
+
+  
+  <p>Lorem est tota propiore conpellat pectoribus de
+pectora summo.</p>
+  <footer>
+    <a href="/blog/placeholder-text/" class="button big">Read more</a>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+    
+      <li>None</li>
+    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/tags/markdown/">markdown</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/text/">text</a></li>
+        
+      
+    
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+</article>
+
+  
+  
+<div class="pagination">
+  
+  
+    <a href="/page/2/" class="button"><div class="next"><div>Next</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent posts</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/markdown-syntax/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2014/04/pic02.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/markdown-syntax/">Markdown Syntax Guide</a></h2>
+          <time class="published" datetime="">March 11, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/rich-content/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2017/08/pic04.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/rich-content/">Rich Content</a></h2>
+          <time class="published" datetime="">March 10, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/placeholder-text/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2014/09/pic03.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/placeholder-text/">Placeholder Text</a></h2>
+          <time class="published" datetime="">March 9, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/emoji-support/" class="image featured">
+    
+      <img src="http://musings.bumbleit.com/img/2014/04/pic01.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/emoji-support/">Emoji Support</a></h2>
+          <time class="published" datetime="">March 5, 2019</time>
+        </header>
+      </article>
+      
+      
+    </section>
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/syntax/">syntax<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/themes/">themes<span class="count">1</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>This theme was developed for Hugo static site generator.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/pacollins/hugo-future-imperfect-slim" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+<li><a href="//flickr.com/photos/example" target="_blank" rel="noopener" title="Flickr" class="fab fa-flickr"></a></li>
+
+
+
+
+<li><a href="//linkedin.com/in/example" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+<li><a href="//linkedin.com/company/examplebusiness" target="_blank" rel="noopener" title="LinkedIn Company" class="fab fa-linkedin"></a></li>
+
+
+
+<li><a href="//facebook.com/example" target="_blank" rel="noopener" title="Facebook" class="fab fa-facebook"></a></li>
+<li><a href="//reddit.com/user/example" target="_blank" rel="noopener" title="Reddit" class="fab fa-reddit"></a></li>
+
+
+
+
+
+
+
+<li><a href="//instagram.com/example" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/example" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+<li><a href="//pinterest.com/example" target="_blank" rel="noopener" title="Pinterest" class="fab fa-pinterest-p"></a></li>
+<li><a href="//telegram.me/example" target="_blank" rel="noopener" title="telegram" class="fab fa-telegram"></a></li>
+
+
+
+<li><a href="//researchgate.net/profile/example" target="_blank" rel="noopener" title="Research Gate"><i class="ai ai-researchgate"></i></a></li>
+<li><a href="//keybase.io/example" target="_blank" rel="noopener" title="keybase" class="fab fa-keybase"></a></li>
+<li><a href="//example.com/@example" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:example" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2019
+      
+        Hugo Future Imperfect Slim
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.72.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.25b002b33df0d9b4cbdf089b418e9d8eff4085bc1ad071d013ecd6dd91aaac9f.js" integrity="sha256-JbACsz3w2bTL3wibQY6djv9Ahbwa0HHQE&#43;zW3ZGqrJ8="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
 </html>

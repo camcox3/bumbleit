@@ -3,27 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>http://musings.bumbleit.com/fr/blog/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/"
+                href="http://musings.bumbleit.com/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/"
+                href="http://musings.bumbleit.com/fr/blog/"
                 />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/fr/categories/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://musings.bumbleit.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://musings.bumbleit.com/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://musings.bumbleit.com/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://musings.bumbleit.com/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://musings.bumbleit.com/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://musings.bumbleit.com/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://musings.bumbleit.com/zh-tw/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://musings.bumbleit.com/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -33,111 +68,133 @@
   </url>
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>http://musings.bumbleit.com/fr/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/posts/2014/09/creating-a-new-theme/"
+                href="http://musings.bumbleit.com/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/"
+                href="http://musings.bumbleit.com/fr/tags/css/"
                 />
   </url>
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://musings.bumbleit.com/fr/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>http://musings.bumbleit.com/fr/blog/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/posts/"
+                href="http://musings.bumbleit.com/blog/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/posts/"
+                href="http://musings.bumbleit.com/fr/blog/markdown-syntax/"
                 />
   </url>
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/posts/2014/04/d%C3%A9buter-avec-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://musings.bumbleit.com/fr/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/posts/2014/04/getting-started-with-hugo/"
+                href="http://musings.bumbleit.com/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/posts/2014/04/d%C3%A9buter-avec-hugo/"
+                href="http://musings.bumbleit.com/fr/tags/html/"
                 />
   </url>
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/categories/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://musings.bumbleit.com/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://musings.bumbleit.com/fr/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/posts/2014/04/hugo-template-primer/"
+                href="http://musings.bumbleit.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://musings.bumbleit.com/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://musings.bumbleit.com/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://musings.bumbleit.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://musings.bumbleit.com/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://musings.bumbleit.com/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://musings.bumbleit.com/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://musings.bumbleit.com/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/"
+                href="http://musings.bumbleit.com/fr/"
                 />
   </url>
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/categories/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://musings.bumbleit.com/fr/posts/2014/03/migrer-vers-hugo-depuis-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>http://musings.bumbleit.com/fr/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/posts/2014/03/migrate-to-hugo-from-jekyll/"
+                href="http://musings.bumbleit.com/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/posts/2014/03/migrer-vers-hugo-depuis-jekyll/"
+                href="http://musings.bumbleit.com/fr/tags/markdown/"
                 />
   </url>
   
   <url>
-    <loc>http://musings.bumbleit.com/fr/series/</loc>
+    <loc>http://musings.bumbleit.com/fr/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://musings.bumbleit.com/series/"
+                href="http://musings.bumbleit.com/categories/syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://musings.bumbleit.com/fr/series/"
+                href="http://musings.bumbleit.com/fr/categories/syntax/"
                 />
   </url>
   
   <url>
     <loc>http://musings.bumbleit.com/fr/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -145,8 +202,187 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="pl"
+                href="http://musings.bumbleit.com/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://musings.bumbleit.com/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://musings.bumbleit.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://musings.bumbleit.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://musings.bumbleit.com/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://musings.bumbleit.com/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://musings.bumbleit.com/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="http://musings.bumbleit.com/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/tags/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/tags/themes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/categories/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/categories/themes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/blog/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/blog/rich-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/blog/rich-content/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/tags/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/tags/privacy/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/tags/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/tags/shortcodes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/tags/emoji/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/tags/emoji/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/blog/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/blog/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/blog/emoji-support/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://musings.bumbleit.com/pl/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://musings.bumbleit.com/pt/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://musings.bumbleit.com/fr/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://musings.bumbleit.com/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://musings.bumbleit.com/fr/contact/"
                 />
   </url>
   

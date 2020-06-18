@@ -1,68 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on BumbleIT</title>
+    <title>Tags on Hugo Future Imperfect Slim</title>
     <link>http://musings.bumbleit.com/tags/</link>
-    <description>Recent content in Tags on BumbleIT</description>
+    <description>Recent content in Tags on Hugo Future Imperfect Slim</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://musings.bumbleit.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>development</title>
-      <link>http://musings.bumbleit.com/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>css</title>
+      <link>http://musings.bumbleit.com/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://musings.bumbleit.com/tags/development/</guid>
+      <guid>http://musings.bumbleit.com/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>http://musings.bumbleit.com/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>html</title>
+      <link>http://musings.bumbleit.com/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://musings.bumbleit.com/tags/go/</guid>
+      <guid>http://musings.bumbleit.com/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>http://musings.bumbleit.com/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>markdown</title>
+      <link>http://musings.bumbleit.com/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://musings.bumbleit.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>http://musings.bumbleit.com/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://musings.bumbleit.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>http://musings.bumbleit.com/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://musings.bumbleit.com/tags/templates/</guid>
+      <guid>http://musings.bumbleit.com/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
       <link>http://musings.bumbleit.com/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://musings.bumbleit.com/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>http://musings.bumbleit.com/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://musings.bumbleit.com/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>http://musings.bumbleit.com/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://musings.bumbleit.com/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>http://musings.bumbleit.com/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://musings.bumbleit.com/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>http://musings.bumbleit.com/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://musings.bumbleit.com/tags/emoji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://musings.bumbleit.com/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://musings.bumbleit.com/tags/index/</guid>
       <description></description>
     </item>
     
