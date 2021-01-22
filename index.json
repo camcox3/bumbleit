@@ -2,7 +2,7 @@
     "title": "Test Photo",
     "date": "June 18, 2020",
     "description": "",
-    "body": "images = [\u0026ldquo;img/dogs/Finn2.jpg\u0026rdquo;]\n",
+    "body": "",
     "ref": "/photos/test-photo/"
   },{
     "title": "Markdown Syntax Guide",
