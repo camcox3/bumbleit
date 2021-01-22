@@ -8,4 +8,4 @@ catagories = [
   "photos"
 ]
 +++
-{{< figure src="../../static/img/dogs/Finn.jpg" title="Finn" >}}
+{{< figure src="dogs/Finn.jpg" title="Finn" >}}
