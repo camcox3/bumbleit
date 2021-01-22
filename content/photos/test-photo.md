@@ -9,4 +9,4 @@ catagories = [
 ]
 +++
 
-![Finn](img/dogs/Finn2.jpg)
+![Finn](/Users/cameron.cox/Documents/Personal/Sites/bumbleit/static/img/dogs/Finn2.jpg)
