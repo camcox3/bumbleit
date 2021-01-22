@@ -9,4 +9,4 @@ catagories = [
 ]
 +++
 
-images  = ["img/dogs/Finn2.jpg"]
+![Finn](img/dogs/Finn2.jpg)
