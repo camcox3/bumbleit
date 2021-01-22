@@ -9,4 +9,4 @@ catagories = [
 ]
 +++
 
-images  = ["bumbleit/content/photos/Dogs/Finn2.jpg"]
+images  = ["img/dogs/Finn2.jpg"]
